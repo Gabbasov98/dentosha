@@ -1,0 +1,249 @@
+<!DOCTYPE html> <html lang="ru">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="">
+    <meta name="keywords" content="">
+    <link rel="stylesheet" href="css/libs.min.css">
+    <link rel="stylesheet" href="css/style.min.css">
+    <title>Главная</title>
+</head>
+
+
+<style>
+    .wrapper a {
+        font-size: 30px;
+        text-transform: capitalize;
+    }
+
+    .wrapper button {
+        margin-bottom: 25px;
+        width: 300px;
+        height: 45px;
+    }
+</style>
+
+<body>
+
+    <div class="wrapper" style="padding: 50px;">
+        <a href="index.html" style="display: block; margin-bottom: 20px;">
+            Главная
+        </a>
+        <a href="clinic.html" style="display: block; margin-bottom: 20px;">
+            страница клиники
+        </a>
+        <a href="clinics.html" style="display: block; margin-bottom: 20px;">
+            Клиники
+        </a>
+        <a href="about.html" style="display: block; margin-bottom: 20px;">
+            О нас
+        </a>
+        <a href="doctors.html" style="display: block; margin-bottom: 20px;">
+            Руководство клиники
+        </a>
+        <a href="licensies.html" style="display: block; margin-bottom: 20px;">
+            Лицензии и сертификаты
+        </a>
+        <a href="docs.html" style="display: block; margin-bottom: 20px;">
+            Нормативные документы
+        </a>
+        <a href="smi.html" style="display: block; margin-bottom: 20px;">
+            СМИ о нас
+        </a>
+        <a href="live.html" style="display: block; margin-bottom: 20px;">
+            Live
+        </a>
+        <a href="note.html" style="display: block; margin-bottom: 20px;">
+            Запись
+        </a>
+        <a href="social-projects.html" style="display: block; margin-bottom: 20px;">
+            Социальные проекты
+        </a>
+        <a href="note-project.html" style="display: block; margin-bottom: 20px;">
+            Страница проекта
+        </a>
+        <a href="tax.html" style="display: block; margin-bottom: 20px;">
+            Налоговый вычет
+        </a>
+        <a href="services.html" style="display: block; margin-bottom: 20px;">
+            Услуги
+        </a>
+        <a href="service.html" style="display: block; margin-bottom: 20px;">
+            Лечение зубов
+        </a>
+        <a href="service2.html" style="display: block; margin-bottom: 20px;">
+            Лечение кариеса
+        </a>
+        <a href="price.html" style="display: block; margin-bottom: 20px;">
+            Цены
+        </a>
+        <a href="doctors2.html" style="display: block; margin-bottom: 20px;">
+            Врачи
+        </a>
+        <a href="doctor.html" style="display: block; margin-bottom: 20px;">
+            Врач
+        </a>
+        <a href="works.html" style="display: block; margin-bottom: 20px;">
+            Работы врачей
+        </a>
+        <a href="feedback.html" style="display: block; margin-bottom: 20px;">
+            Отзывы
+        </a>
+        <a href="sales.html" style="display: block; margin-bottom: 20px;">
+            Акции
+        </a>
+        <a href="sale.html" style="display: block; margin-bottom: 20px;">
+            Акция
+        </a>
+        <a href="for-doctors.html" style="display: block; margin-bottom: 20px;">
+            Врачам
+        </a>
+        <a href="edu.html" style="display: block; margin-bottom: 20px;">
+            Обучение
+        </a>
+        <a href="vacancies.html" style="display: block; margin-bottom: 20px;">
+            Вакансии
+        </a>
+        <a href="vacancy.html" style="display: block; margin-bottom: 20px;">
+            Вакансия
+        </a>
+        <a href="franchise.html" style="display: block; margin-bottom: 20px;">
+            Франшиза
+        </a>
+        <a href="contacts.html" style="display: block; margin-bottom: 20px;">
+            Контакты
+        </a>
+        <a href="404.html" style="display: block; margin-bottom: 20px;">
+            404
+        </a>
+        <a href="conf.html" style="display: block; margin-bottom: 20px;">
+            Политика обработки персональных данных
+        </a>
+
+
+
+
+        <button style="border: 2px solid #000;margin-bottom: 20px;" data-bs-toggle="modal" data-bs-target="#callModal">
+            Заказать звонок
+        </button>
+        <button style="border: 2px solid #000;margin-bottom: 20px;" data-bs-toggle="modal" data-bs-target="#feedbackModal">
+            Написать отзыв
+        </button>
+
+    </div>
+
+    <div class="modal fade" id="callModal" aria-hidden="true">
+    <div class="modal-dialog">
+        <button type="button" class="modal__close" data-bs-dismiss="modal" aria-label="Close">
+            <svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+                <path d="M18 6L6 18" stroke="#1F2123" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+                <path d="M6 6L18 18" stroke="#1F2123" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+            </svg>
+        </button>
+
+        <div class="modal__title display4">Заказать звонок</div>
+        <div class="modal__desc">
+            Оставьте нам ваши контактные данные <br> и мы вам перезвоним
+        </div>
+        <form action="" class="modal__form">
+            <fieldset class="fg">
+                <input type="text" placeholder="имя">
+            </fieldset>
+            <fieldset class="fg">
+                <input type="tel" placeholder="телефон">
+            </fieldset>
+            <div class="modal__check mcheck body-text">
+                <input checked type="checkbox">
+                <label>
+                    Даю согласие на обработку персональных данных, соглашаюсь с политикой конфиденциальности
+                </label>
+            </div>
+            <div class="modal__nav">
+                <button class="modal__btn mbtn mbtn-primary">Отправить</button>
+            </div>
+        </form>
+    </div>
+</div>
+
+<div class="modal modal-feedback fade" id="feedbackModal" aria-hidden="true">
+    <div class="modal-dialog">
+        <button type="button" class="modal__close" data-bs-dismiss="modal" aria-label="Close">
+            <svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+                <path d="M18 6L6 18" stroke="#1F2123" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+                <path d="M6 6L18 18" stroke="#1F2123" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+            </svg>
+        </button>
+
+        <div class="modal__title display4">Написать отзыв</div>
+        <div class="modal__desc">
+            Ваши замечания и пожелания помогают нам улучшать качество и сервис. <br>
+            Напишите, нам, и мы сделаем всё возможное, чтобы стать ещё лучше!
+        </div>
+        <form action="" class="modal__form">
+            <fieldset class="fg">
+                <input type="text" placeholder="имя">
+            </fieldset>
+            <fieldset class="fg modal__group">
+                <label>Оценка:</label>
+                <div class="modal__rating">
+                    <div class="rating" data-total-rating="@@rating" data-rating-code="1">
+                        <div class="rating__item" data-rating-value="5">&#9733;</div>
+<div class="rating__item" data-rating-value="4">&#9733;</div>
+<div class="rating__item" data-rating-value="3">&#9733;</div>
+<div class="rating__item" data-rating-value="2">&#9733;</div>
+<div class="rating__item" data-rating-value="1">&#9733;</div>
+
+                    </div>
+                </div>
+            </fieldset>
+            <fieldset class="fg">
+                <input type="tel" placeholder="телефон">
+            </fieldset>
+            <fieldset class="fg modal__group">
+                <label>Врач:</label>
+                <select>
+                    <option selected>Иванов И. И.</option>
+                    <option>Иванов И. И. 2</option>
+                    <option>Иванов И. И. 3</option>
+                    <option>Иванов И. И. 4</option>
+                </select>
+            </fieldset>
+            <fieldset class="fg">
+                <input type="email" placeholder="электронная почта">
+            </fieldset>
+            <fieldset class="fg modal__group">
+                <label>Клиника:</label>
+                <select>
+                    <option selected>Иванов И. И.</option>
+                    <option>Иванов И. И. 2</option>
+                    <option>Иванов И. И. 3</option>
+                    <option>Иванов И. И. 4</option>
+                </select>
+            </fieldset>
+            <fieldset class="fg modal__full">
+                <textarea placeholder="текст отзыва"></textarea>
+            </fieldset>
+
+            <div class="modal__nav modal__full">
+                <div class="modal__check mcheck body-text">
+                    <input checked type="checkbox">
+                    <label>
+                        Даю согласие на обработку персональных данных, соглашаюсь с политикой конфиденциальности
+                    </label>
+                </div>
+                <button class="modal__btn mbtn mbtn-primary">Отправить отзыв</button>
+            </div>
+        </form>
+    </div>
+</div>
+
+<!--<div class="modal-backdrop show"></div>-->
+
+    <!--  -->
+    <script src="js/libs.min.js"></script>
+<script src="js/main.min.js"></script>
+
+</body>
+
+</html>
