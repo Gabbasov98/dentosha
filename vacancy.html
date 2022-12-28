@@ -7,7 +7,7 @@
     <meta name="keywords" content="">
     <link rel="stylesheet" href="css/libs.min.css">
     <link rel="stylesheet" href="css/style.min.css">
-    <title>Страница клиники</title>
+    <title>Вакансия</title>
 </head>
 
 <body>
@@ -322,6 +322,13 @@
 
         </header>
         <main class="content">
+            <div class='breadcrumbs'>
+    <div class="container">
+        <a href="" class="breadcrumbs__item">Главная</a>
+        <span class="breadcrumbs__item">Название страницы</span>
+    </div>
+</div>
+
 
             <section class="vacancy">
                 <div class="container">
@@ -342,13 +349,15 @@
                                     <span class="vacancy__text-street">ул. Ленина, 104</span>
                                 </a>
                                 <div class="vacancy__info-text vacancy__wages">
-                                    <span class="vacancy__text-currency">₽</span>
+                                    <svg width="16" height="34" viewBox="0 0 16 34" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                        <path d="M14.376 14.456C14.376 16.168 13.864 17.496 12.84 18.44C11.816 19.368 10.376 19.832 8.52 19.832H4.656V21.8H9C9.192 21.8 9.288 21.888 9.288 22.064V23.096C9.288 23.288 9.192 23.384 9 23.384H4.656V25.736C4.656 25.912 4.56 26 4.368 26H2.976C2.784 26 2.688 25.912 2.688 25.736V23.384H1.152C0.96 23.384 0.864 23.288 0.864 23.096V22.064C0.864 21.888 0.96 21.8 1.152 21.8H2.688V9.104C2.688 8.928 2.784 8.84 2.976 8.84H8.52C10.376 8.84 11.816 9.336 12.84 10.328C13.864 11.32 14.376 12.696 14.376 14.456ZM12.384 14.336C12.384 11.856 11.024 10.616 8.304 10.616H4.656V18.08H8.304C11.024 18.08 12.384 16.832 12.384 14.336Z" fill="#5DB02A"/>
+                                    </svg>
                                     <span class="vacancy__text-number">80 000₽</span>
                                 </div>
                             </div>
                             <div class="vacancy__work">
                                 <div class="vacancy__desc vacansy__duties">
-                                    <div class="vacancy__subtitle">Обязанности</div>
+                                    <div class="vacancy__subtitle display3">Обязанности</div>
                                     <ul class="vacancy__list">
                                         <li>Грамотное предоставление информации о состоянии здоровья пациента и возможных вариантах решения</li>
                                         <li> Выполнение осмотров, диагностирование, лечение пациентов совместно со смежными специалистами</li>
@@ -356,7 +365,7 @@
                                     </ul>
                                 </div>
                                 <div class="vacancy__desc vacansy__requirements">
-                                    <div class="vacancy__subtitle">Требования</div>
+                                    <div class="vacancy__subtitle display3">Требования</div>
                                     <ul class="vacancy__list">
                                         <li>Высшее медицинское образование с действующим сертификатом</li>
                                         <li>Готовность работать на результат и соблюдать современные стандарты в стоматологии</li>
@@ -367,7 +376,7 @@
                                     </ul>
                                 </div>
                                 <div class="vacancy__desc vacansy__conditions">
-                                    <div class="vacancy__subtitle">Условия работы</div>
+                                    <div class="vacancy__subtitle display3">Условия работы</div>
                                     <ul class="vacancy__list">
                                         <li>Официальное трудоустройство по ТК РФ</li>
                                         <li>Дружная команда и корпоративные мероприятия</li>
@@ -395,11 +404,11 @@
                             <form action="" class="vacancy__form">
                                 <fieldset class="vacancy__fg fg fg--white">
                                     <img src="img/user.svg" alt="" class="fg__icon">
-                                    <input type="text" placeholder="ФИО">
+                                    <input type="text" placeholder="фамилия, имя и отчество*">
                                 </fieldset>
                                 <fieldset class="vacancy__fg fg fg--white">
                                     <img src="img/phone.svg" alt="" class="fg__icon">
-                                    <input type="tel" placeholder="телефон">
+                                    <input type="tel" placeholder="контактный номер телефона*">
                                 </fieldset>
                                 <div class="files">
                                     <fieldset class="file-input2 _file-upload">
@@ -407,12 +416,12 @@
                                         <svg width="17" height="16" viewBox="0 0 17 16" fill="none" xmlns="http://www.w3.org/2000/svg">
                                             <path d="M15.1439 1.67626C13.3903 -0.0395509 10.5869 -0.0391777 8.83369 1.67711L1.48078 9.03006C0.151224 10.391 0.176633 12.572 1.53753 13.9015C2.87604 15.2092 5.01374 15.2092 6.35225 13.9015L13.0104 7.24335C13.876 6.37777 13.876 4.97436 13.0104 4.10879C12.1449 3.24322 10.7414 3.24322 9.87587 4.10879L3.50717 10.4775C3.28503 10.7075 3.29141 11.074 3.52141 11.2961C3.74579 11.5128 4.10148 11.5128 4.32586 11.2961L10.6945 4.92745C11.1169 4.52287 11.7872 4.53729 12.1917 4.95961C12.5841 5.36917 12.5841 6.01512 12.1917 6.42469L5.53359 13.0828C4.63413 13.9695 3.18614 13.9591 2.29947 13.0597C1.42175 12.1693 1.42175 10.7391 2.29947 9.84872L9.65238 2.49577C10.9621 1.18555 13.086 1.18518 14.3962 2.49489C15.7064 3.80459 15.7068 5.92848 14.3971 7.2387L7.04413 14.5916C6.80126 14.7996 6.77297 15.1651 6.98096 15.408C7.18895 15.6509 7.55445 15.6792 7.79731 15.4712C7.81997 15.4518 7.84107 15.4307 7.86048 15.408L15.2134 8.05505C16.9557 6.2744 16.9246 3.4185 15.1439 1.67626Z" fill="white"></path>
                                         </svg>
-                                        <span>Прикрепить резюме</span>
+                                        <span>прикрепить резюме</span>
                                         <span class="file-input2__text">Разрешены типы: doc, pdf, docx</span>
                                     </fieldset>
                                 </div>
                                 <fieldset class="vacancy__fg vacancy__fg--two fg fg--white">
-                                    <textarea placeholder="Ваше сообщение"></textarea>
+                                    <textarea placeholder="сообщение"></textarea>
                                 </fieldset>
                                 <div class="vacancy__check mcheck mcheck--white body-text">
                                     <input checked="" type="checkbox">
@@ -420,7 +429,12 @@
                                         Отправляя заявку, я даю согласие на обработку персональных данных в рамках рассмотрения вопроса о принятии на работу соискателя на должность.
                                     </label>
                                 </div>
-                                <button class="vacancy__btn mbtn mbtn-white">Отправить</button>
+                                <button class="vacancy__btn mbtn mbtn-white">
+                                    <svg width="20" height="21" viewBox="0 0 20 21" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                        <path d="M12.5435 4.66665C13.3574 4.82545 14.1055 5.22353 14.6919 5.80993C15.2783 6.39632 15.6763 7.14437 15.8351 7.95831M12.5435 1.33331C14.2345 1.52118 15.8115 2.27846 17.0153 3.48082C18.2192 4.68318 18.9785 6.25915 19.1685 7.94998M18.3351 14.6V17.1C18.3361 17.3321 18.2885 17.5618 18.1956 17.7744C18.1026 17.9871 17.9662 18.178 17.7952 18.3349C17.6242 18.4918 17.4223 18.6112 17.2024 18.6856C16.9826 18.7599 16.7496 18.7875 16.5185 18.7666C13.9542 18.488 11.491 17.6118 9.32681 16.2083C7.31334 14.9289 5.60626 13.2218 4.32682 11.2083C2.91846 9.03432 2.04202 6.55914 1.76848 3.98331C1.74766 3.75287 1.77505 3.52061 1.8489 3.30133C1.92275 3.08205 2.04146 2.88055 2.19745 2.70966C2.35345 2.53877 2.54332 2.40224 2.75497 2.30875C2.96663 2.21526 3.19543 2.16686 3.42682 2.16665H5.92682C6.33124 2.16267 6.72331 2.30588 7.02995 2.56959C7.33659 2.8333 7.53688 3.19952 7.59348 3.59998C7.699 4.40003 7.89469 5.18559 8.17682 5.94165C8.28893 6.23992 8.3132 6.56408 8.24674 6.87571C8.18027 7.18735 8.02587 7.47341 7.80181 7.69998L6.74348 8.75831C7.92978 10.8446 9.65719 12.572 11.7435 13.7583L12.8018 12.7C13.0284 12.4759 13.3144 12.3215 13.6261 12.2551C13.9377 12.1886 14.2619 12.2129 14.5601 12.325C15.3162 12.6071 16.1018 12.8028 16.9018 12.9083C17.3066 12.9654 17.6763 13.1693 17.9406 13.4812C18.2049 13.7931 18.3453 14.1913 18.3351 14.6Z" stroke="#5DB02A" stroke-width="1.7" stroke-linecap="round" stroke-linejoin="round"/>
+                                    </svg>
+                                    <span>Записаться на консультацию</span>
+                                </button>
                             </form>
                         </div>
                     </div>
@@ -430,7 +444,9 @@
             <section class="vacancies">
                 <div class="container">
                     <div class="vacancies__inner">
-                        <div class="vacancies__title display2">Другие вакансии</div>
+                        <div class="slider__top">
+                            <div class="vacancies__title display2">Другие вакансии</div>
+                        </div>
                         <div class="vacancies__slider slider" data-slider-id="0">
                             <div class="swiper-container swiper-initialized swiper-horizontal swiper-pointer-events swiper-backface-hidden">
                                 <div class="swiper-wrapper" id="swiper-wrapper-51a3b09e2573ab7d" aria-live="polite" style="transform: translate3d(0px, 0px, 0px);">
@@ -584,13 +600,24 @@
     <a href="/" class="vacancies-card__btn mbtn mbtn-secondary">Подробнее</a>
 </div>
 
-
                                 </div>
                             </div>
-                            <div class="swiper-scrollbar">
-                                <div class="swiper-scrollbar-drag" style="transform: translate3d(0px, 0px, 0px); width: 1238.4px;"></div>
+                            <div class="slider__nav">
+                                <div class="swiper-button swiper-button-prev">
+                                    <svg width="20" height="20" viewBox="0 0 20 20" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                        <path d="M12.5 15L7.5 10L12.5 5" stroke="#1F2123" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+                                    </svg>
+                                </div>
+                                <div class="swiper-button swiper-button-next">
+                                    <svg width="20" height="20" viewBox="0 0 20 20" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                        <path d="M7.5 15L12.5 10L7.5 5" stroke="#1F2123" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+                                    </svg>
+                                </div>
                             </div>
                         </div>
+                        <a href="" class="vacancies__all mbtn mbtn-secondary-outline">
+                            Все вакансии
+                        </a>
                     </div>
                 </div>
 
